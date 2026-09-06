@@ -1,0 +1,18 @@
+{
+ "name": "timezone-cli",
+ "type": "cli",
+ "version": "0.1.0",
+ "displayName": "时区时间助手",
+ "description": "常用城市当前时间/多城市对比/时间戳转换（含北京时间）。本地计算不联网。",
+ "icon": "icon.svg",
+ "skills": [
+  "skills/SKILL.md"
+ ],
+ "minWorkbuddyVersion": "4.22.15",
+ "examples_zh": [
+  "现在东京几点了",
+  "对比北京和伦敦现在的时间",
+  "把 1728000000 时间戳转成日期"
+ ],
+ "examples_en": []
+}

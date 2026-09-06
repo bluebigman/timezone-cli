@@ -1,0 +1,28 @@
+{
+ "runtime": {
+  "type": "node",
+  "version": "18"
+ },
+ "init": {
+  "darwin": "npm install -g git+https://github.com/bluebigman/timezone-cli.git",
+  "linux": "npm install -g git+https://github.com/bluebigman/timezone-cli.git",
+  "win32": "npm install -g git+https://github.com/bluebigman/timezone-cli.git"
+ },
+ "auth": {
+  "darwin": "timezone auth",
+  "linux": "timezone auth",
+  "win32": "timezone.cmd auth"
+ },
+ "unAuth": {
+  "darwin": "timezone unAuth",
+  "linux": "timezone unAuth",
+  "win32": "timezone.cmd unAuth"
+ },
+ "status": {
+  "darwin": "timezone status",
+  "linux": "timezone status",
+  "win32": "timezone.cmd status"
+ },
+ "statusMatch": "ok",
+ "authStrategy": "none"
+}

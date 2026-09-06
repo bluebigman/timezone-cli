@@ -1,0 +1,13 @@
+{
+ "name": "timezone-cli",
+ "version": "0.1.0",
+ "description": "常用城市当前时间/多城市对比/时间戳转换（含北京时间）。本地计算不联网。",
+ "main": "index.js",
+ "bin": {
+  "timezone": "./index.js"
+ },
+ "engines": {
+  "node": ">=18"
+ },
+ "license": "MIT"
+}
